@@ -1,0 +1,7 @@
+@startuml
+class ElectromagnetismSource {
+    Retrieve()
+        __init__()
+}
+AuthoritativeSource <|-- ElectromagnetismSource
+@enduml

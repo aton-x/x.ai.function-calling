@@ -1,0 +1,9 @@
+@startuml
+
+
+class JCMaxwellBiographySource {
+    Retrieve()
+        __init__()
+}
+AuthoritativeSource <|-- JCMaxwellBiographySource
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+class SalemWitchTrialsSource {
+    Retrieve()
+        __init__()
+}
+AuthoritativeSource <|-- SalemWitchTrialsSource
+@enduml
