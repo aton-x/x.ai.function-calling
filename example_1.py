@@ -75,7 +75,6 @@ tools_definition = [
     }
 ]
 
-# messages = [{"role": "user", "content": "What's the temperature like in Paris?"}]
 messages = [{"role": "user", "content": "What's the cloud ceiling in Livingston, NJ?"}]
 response = client.chat.completions.create(
     model="grok-2-1212",

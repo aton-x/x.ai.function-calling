@@ -1,0 +1,28 @@
+@startuml
+class AuthoritativeSource {
+    url
+    parsed_html
+    __init__()
+    Retrieve()
+    
+}
+
+class JCMaxwellBiographySource {
+    __init__()
+    Retrieve()
+}
+AuthoritativeSource <|-- JCMaxwellBiographySource
+
+class ElectromagnetismSource {
+    __init__()
+    Retrieve()
+}
+AuthoritativeSource <|-- ElectromagnetismSource
+
+class SalemWitchTrialsSource {
+    __init__()
+    Retrieve()
+}
+AuthoritativeSource <|-- SalemWitchTrialsSource
+
+@enduml

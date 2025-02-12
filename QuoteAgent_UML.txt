@@ -1,0 +1,8 @@
+@startuml
+class QuoteAgent {
+    generate_response()
+        system_message
+    __init__()
+}
+XAIAgent <|-- QuoteAgent
+@enduml

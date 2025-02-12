@@ -1,5 +1,4 @@
 from typing import TypeVar
-# import os
 from openai import OpenAI
 
 TXAIAgent = TypeVar('TXAIAgent')

@@ -1,0 +1,16 @@
+@startuml
+class SourceAgent {
+    __init__()
+    __get_authoritative_source()
+    __create_chat()
+    get_final_response()
+}
+XAIAgent <|-- SourceAgent
+
+class XAIAgent {
+    client
+    __init__()
+}
+
+
+@enduml
