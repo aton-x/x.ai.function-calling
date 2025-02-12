@@ -24,4 +24,4 @@ The following files were recreated from the xAI documentation web site:
 - example_2.py: Analyze writing example and mimic its style, tone, and voice in response on a different topic.
 
 Use cases:
-- SourceAgentExperiment.py: The solution for the challenge presented in blog [...]
+- SourceAgentExperiment.py: The solution for the challenge presented in blog [\[How can xAI function calling streamline your workflow\]](https://www.aton-x.com/post/how-can-xai-function-calling-streamline-your-workflow)
